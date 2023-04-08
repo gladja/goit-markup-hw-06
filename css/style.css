@@ -537,7 +537,7 @@ body {
 }
 
 .form-sub:focus-visible {
-    outline: none;
+    outline: 1px solid #FFFFFF;
 }
 
 .btn-sub {
