@@ -357,6 +357,17 @@
 					</li>
 				</ul>
 			</div>
+
+			<div class="footer-third">
+				<h3 class="social-title space">Subscribe</h3>
+				<div class="form-wrap">
+					<input class="form-sub" type="email" name="mail" placeholder="E-mail">
+					<button class="btn btn-sub" type="button">Subscribe</button>
+					<svg class="form-sub-img">
+						<use href="./images/icons.svg#icon-send"></use>
+					</svg>
+				</div>
+			</div>
 		</div>
 	</div>
 </footer>
@@ -370,23 +381,59 @@
 				</svg>
 			</button>
 		</div>
-		<h3>Leave your contacts and we will call you back</h3>
-		<form>
-			<div class="form-field">
-				<label class="form-label">
-					<span class="form-text">Name</span>
-					<div class="form-wrap">
-						<input autofocus class="form-input" type="text" name="name">
-
-						<svg class="input-img-item">
-							<use href="./images/icons.svg#icon-email"></use>
-						</svg>
-					</div>
-
-				</label>
-			</div>
+		<h3 class="modal-text">Leave your contacts and we will call you back</h3>
+		<form class="form">
+			<ul class="list">
+				<li class="form-field">
+					<label class="form-label">
+						<span class="form-text">Name</span>
+						<div class="form-wrap">
+							<input class="form-input" type="text" name="name" autofocus>
+							<svg class="input-img-item">
+								<use href="./images/icons.svg#icon-name"></use>
+							</svg>
+						</div>
+					</label>
+				</li>
+				<li class="form-field">
+					<label class="form-label">
+						<span class="form-text">Phone</span>
+						<div class="form-wrap">
+							<input class="form-input" type="tel" name="phone">
+							<svg class="input-img-item">
+								<use href="./images/icons.svg#icon-phone"></use>
+							</svg>
+						</div>
+					</label>
+				</li>
+				<li class="form-field">
+					<label class="form-label">
+						<span class="form-text">Email</span>
+						<div class="form-wrap">
+							<input class="form-input" type="email" name="mail">
+							<svg class="input-img-item">
+								<use href="./images/icons.svg#icon-email"></use>
+							</svg>
+						</div>
+					</label>
+				</li>
+				<li class="form-field">
+					<label class="form-label">
+						<span class="form-text">Comment</span>
+						<textarea class="form-textarea" name="comment" placeholder="Text input"></textarea>
+					</label>
+				</li>
+			</ul>
+			<label class="form-check">
+				<input class="form-checkbox hidden" type="checkbox" name="accept" value="accept">
+				I accept the terms and conditions of the
+				<a class="form-policy" href="#">Privacy Policy</a>
+				<svg class="check-img-item">
+					<use href="./images/icons.svg#icon-check"></use>
+				</svg>
+			</label>
+			<button  class="btn btn-modal-send" type="submit">Send</button>
 		</form>
-
 	</div>
 </div>
 
