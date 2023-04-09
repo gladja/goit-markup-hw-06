@@ -541,6 +541,7 @@ body {
 }
 
 .btn-sub {
+    position: relative;
     width: 165px;
     padding: 8px 24px;
     border: 1px solid transparent;
@@ -558,9 +559,7 @@ body {
     background: var(--color-btn-hover);
 }
 
-.form-wrap {
-    position: relative;
-}
+
 
 .form-sub-img {
     position: absolute;
